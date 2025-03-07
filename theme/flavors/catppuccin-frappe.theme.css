@@ -51,8 +51,8 @@
 
 	/* borders */
 	--border-width: 2px; /* panel border thickness. */
-	--border-color: var(--bg-2); /* panel border color. */
-	--border-hover-color: var(--acc-0); /* panel border color when hovered. */
+	--border-color: #737994; /* panel border color. */
+	--border-hover-color: #babbf1; /* panel border color when hovered. */
 	--border-transition: 0.2s ease; /* panel border transition. */
 
 	/* status dot colors */

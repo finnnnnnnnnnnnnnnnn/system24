@@ -16,20 +16,20 @@
 
 /* customize things here */
 :root {
-	--font: 'DM Mono'; /* UI font name. it must be installed on your system. */
-	letter-spacing: -0.05ch; /* decreases letter spacing for better readability. */
+	--font: 'SF Mono'; /* UI font name. it must be installed on your system. */
+/* 	letter-spacing: -0.05ch; /* decreases letter spacing for better readability. */
 	font-weight: 300; /* UI font weight. */
 	--label-font-weight: 500; /* font weight for panel labels. */
 	--corner-text: 'catppuccin24'; /* custom text to display in the corner. only works on windows. */
-	--pad: 16px; /* padding between panels. */
+	--pad: 8px; /* padding between panels. */
 	--txt-pad: 10px; /* padding inside panels to prevent labels from clipping */
 	--panel-roundness: 0px; /* corner roundness of panels. ONLY WORKS IF unrounding.css IS REMOVED (see above). */
 
 	/* background colors */
-	--bg-0: #1e1e2e; /* main background color. */
-	--bg-1: #181825; /* background color for secondary elements like code blocks, embeds, etc. */
-	--bg-2: #313244; /* color of neutral buttons. */
-	--bg-3: #45475a; /* color of neutral buttons when hovered. */
+	--bg-0: #232634; /* main background color. */
+	--bg-1: #414559; /* background color for secondary elements like code blocks, embeds, etc. */
+	--bg-2: #f2d5cf; /* color of neutral buttons. */
+	--bg-3: #f2d5cf; /* color of neutral buttons when hovered. */
 
 	/* state modifiers */
 	--hover: color-mix(in oklch, var(--txt-3), transparent 80%); /* color of hovered elements. */
